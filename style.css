@@ -70,6 +70,7 @@ body {
     color: snow; 
     transition-property: transform;
     transition-duration: 3s;
+    cursor: pointer;
 }
 
 .shopbtn:hover {
