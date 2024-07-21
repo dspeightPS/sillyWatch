@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-    position: absolute;
+    /* position: fixed; */
     top: 0;
     left: 0;
     width: 100%;
@@ -77,4 +77,48 @@ body {
     width: 300px;
     transform: rotate(360deg);
     
+}
+/* ----------CSS for index.html ends here---------- */
+
+/* ----------CSS for products.html starts here---------- */
+
+.mainProducts {
+    border: solid red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    padding-top: 10%;
+
+}
+
+figcaption {
+    background: black;
+    color: snow;
+    text-align: center;
+    font-size: larger;
+    
+}
+
+.plainJane {
+    border: solid saddlebrown;
+    
+}
+
+.bustDown {
+    border: solid salmon;
+}
+.pjImg {
+    border: solid black;
+    height: 300px;
+    
+}
+
+.bdImg {
+    border: solid black;
+    height: 300px;
+}
+
+.product_links {
+    cursor: pointer;
 }
