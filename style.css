@@ -83,7 +83,7 @@ body {
 /* ----------CSS for products.html starts here---------- */
 
 .mainProducts {
-    border: solid red;
+    /* border: solid red; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -101,21 +101,21 @@ figcaption {
 }
 
 .plainJane {
-    border: solid saddlebrown;
+    /* border: solid saddlebrown; */
     
 }
 
 .bustDown {
-    border: solid salmon;
+    /* border: solid salmon; */
 }
 .pjImg {
-    border: solid black;
+    /* border: solid black; */
     height: 300px;
     
 }
 
 .bdImg {
-    border: solid black;
+    /* border: solid black; */
     height: 300px;
 }
 
