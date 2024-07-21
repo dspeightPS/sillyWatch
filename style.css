@@ -102,16 +102,9 @@ figcaption {
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
-.plainJane {
-    /* border: solid saddlebrown; */
-    
-}
-
-.bustDown {
-    /* border: solid salmon; */
-}
 .pjImg {
     /* border: solid black; */
     height: 300px;
@@ -123,8 +116,31 @@ a {
     height: 300px;
 }
 
-.product_links {
-    cursor: pointer;
+/* ----------CSS for plainJane.html starts here---------- */
+
+.plainJane {
+    border: solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
 }
 
-/* ----------CSS for plainJane.html starts here---------- */
+.tableContainer {
+    border: solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+td, th {
+    border: 1.5px solid black;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+}
