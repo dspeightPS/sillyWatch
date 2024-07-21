@@ -5,6 +5,7 @@
 
 }
 
+/* ----------CSS for index.html starts here---------- */
 body {
     min-height: 100vh;
     background: url(https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat;
@@ -78,7 +79,6 @@ body {
     transform: rotate(360deg);
     
 }
-/* ----------CSS for index.html ends here---------- */
 
 /* ----------CSS for products.html starts here---------- */
 
@@ -98,6 +98,10 @@ figcaption {
     text-align: center;
     font-size: larger;
     
+}
+
+a {
+    text-decoration: none;
 }
 
 .plainJane {
@@ -122,3 +126,5 @@ figcaption {
 .product_links {
     cursor: pointer;
 }
+
+/* ----------CSS for plainJane.html starts here---------- */
