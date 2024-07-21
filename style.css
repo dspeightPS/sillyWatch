@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    min-height: 100vh;
+    background: url(https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    border: 1px solid snow;
+    border-radius: 50%;
+    background: white;
+    /* color: white; */
+    font-size: 20px;
+    font-family: "UnifrakturMaguntia", "UnifrakturMaguntia" sans-serif;
+    padding: 0.5em;
+}
+
+.navLink {
+    color: white;
+    /* padding: 0.5em; */
+    /* margin-top: 0.5em; */
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    
+}
+
+.splashImg {
+    /* border: solid red; */
+    height: 400px;
+    width: 70%;
+}
+
+.btnContainer {
+    /* border: solid green; */
+    margin: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+.shopbtn {
+    font-size: 25px;
+    font-family: "Readex Pro" sans-serif;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    background: black;
+    color: snow; 
+    transition-property: transform;
+    transition-duration: 3s;
+}
+
+.shopbtn:hover {
+    width: 300px;
+    transform: rotate(360deg);
+    
+}
