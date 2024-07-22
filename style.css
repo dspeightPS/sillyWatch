@@ -25,6 +25,15 @@ body {
     align-items: center;
 }
 
+.header a {
+    text-decoration: none;
+    color: snow;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
 .logo {
     border: 1px solid snow;
     border-radius: 50%;
@@ -67,8 +76,9 @@ body {
 }
 
 .shopbtn {
+    border: 2px solid snow;
     font-size: 25px;
-    font-family: "Readex Pro" sans-serif;
+    font-family:'Courier New', Courier, monospace sans-serif;
     padding: 0.5em 1em;
     border-radius: 1em;
     background: black;
@@ -104,9 +114,14 @@ figcaption {
     
 }
 
-a {
+.mainProducts a {
+    color: snow;
     text-decoration: none;
     cursor: pointer;
+}
+
+.mainProducts a:hover {
+    text-decoration: underline;
 }
 
 .pjImg {
@@ -120,14 +135,23 @@ a {
     height: 300px;
 }
 
-/* ----------CSS for plainJane.html starts here---------- */
+/* ----------CSS for plainJane.html/bustDown.html starts here---------- */
 
-.plainJane {
+.watch-Container {
     /* border: solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 5%;
+}
+
+.watch-Container figure a {
+    color: snow;
+    text-decoration: none;
+}
+
+.watch-Container figure a:hover {
+    text-decoration: underline;
 }
 
 .tableContainer {
@@ -148,4 +172,113 @@ table {
     border-collapse: collapse;
     width: 50%;
     text-align: center;
+}
+
+/* ----------CSS for signIn.html starts here */
+
+.main-sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.wrapper {
+    width: 420px;
+    background: transparent;
+    border: 1px solid snow;
+    backdrop-filter: blur(20px);
+    color: snow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid seashell;
+    border-radius: 40px;
+    font-size: 16px;
+    color: snow;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: snow;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-me {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0px 15px;
+}
+
+.remember-me label input {
+    accent-color: snow;
+    margin-right: 3px;
+}
+
+.remember-me a {
+    color: snow;
+    text-decoration: none;
+}
+
+.remember-me a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: snow;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+}
+
+.wrapper .register-link {
+    font-size: 14.5;
+    text-align: center;
+    margin: 20px 0px 15px;
+}
+
+.register-link p a {
+    color: snow;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
 }
